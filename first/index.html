@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
-    <style>
-        body{
-            margin: 0px;
-            padding: 0px;
-            text-align: center;
-        }
-        h1{
-            background-color: green;
-            font-size: 2rem;
-            padding: 100px;
-        }
-    </style>
+
 </head>
+
 <body>
-    <h1>hello this is my first website</h1>
-    <p>suno chanda</p>
+    <div class="num">
+        <i id="minute">00</i>
+        <i id="second">00</i>
+        <i id="mili">00</i>
+    </div>
+    <div class="btn">
+        <button onclick="start()" class="btn-b" id="start">start</button>
+        <button onclick="pausey()" class="btn-b" id="pause">pause</button>
+        <button onclick="stoping()" class="btn-b" id="stop">reset</button>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
